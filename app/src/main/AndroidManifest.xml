@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.inclassexamples_f20">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
     <uses-feature android:name="android.software.leanback" android:required="true"/>
 
@@ -12,6 +14,7 @@
         android:banner="@drawable/androidtv"
         android:theme="@style/AppTheme">
 
+        <activity android:name=".VideoActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
