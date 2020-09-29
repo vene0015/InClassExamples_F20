@@ -10,8 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!-- This activity is part of your application: -->
-        <activity android:name=".SecondActivity"/>
-        <activity android:name=".FirstActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
