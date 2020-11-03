@@ -13,19 +13,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MyHTTPRequest req = new MyHTTPRequest();
+        MyHTTPRequest req = new MyHTTPRequest(); //creates a background thread
         req.execute("http://torunski.ca/CST2335_XML.xml");  //Type 1
     }
-    //Type1     Type2   Type3
+                                                //Type1     Type2   Type3
     private class MyHTTPRequest extends AsyncTask< String, Integer, String>
     {
-        //Type3                Type1
+        //Type3                     Type1
         public String doInBackground(String ... args)
         {
             return "Done";
         }
 
-        //Type 2
+                                    //Type 2
         public void onProgressUpdate(Integer ... args)
         {
 
