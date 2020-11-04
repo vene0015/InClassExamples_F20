@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
                 factory.setNamespaceAware(false);
                 XmlPullParser xpp = factory.newPullParser();
-                xpp.setInput( response  , "UTF-8");
+                xpp.setInput( response  , "UTF-8"); //response is data from the server
 
 
 
