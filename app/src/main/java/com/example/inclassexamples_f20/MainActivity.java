@@ -52,12 +52,12 @@ public class MainActivity extends AppCompatActivity {
             return "Done";
         }
 
-        //Type 2
+                                        //Type 2
         public void onProgressUpdate(Integer ... args)
         {
 
         }
-        //Type3
+                                //Type3
         public void onPostExecute(String fromDoInBackground)
         {
             Log.i("HTTP", fromDoInBackground);
