@@ -3,4 +3,5 @@
     <string name="hello">This shows up on screen</string>
     <string name="author">Eric</string>
     <string name="welcome">Welcome to recipe search</string>
+    <string name="welcomeTicketmaster">Welcome to ticketmaster</string>
 </resources>
