@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">InClassExamples_F20</string>
-    <string name="hello">This shows up on screen</string>
-    <string name="author">Eric</string>
+    <string name="aButton"> Hello there</string>
+    <string name="Name">Name</string>
+    <string name="search">Search</string>
 </resources>
